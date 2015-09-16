@@ -14,7 +14,10 @@ GEM
     execjs (2.5.2)
     fast-stemmer (1.0.2)
     ffi (1.9.8)
+    haml (4.0.7)
+      tilt
     hitimes (1.2.2)
+    htmlentities (4.3.4)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -39,6 +42,7 @@ GEM
     jekyll-watch (1.2.1)
       listen (~> 2.7)
     kramdown (1.7.0)
+    link_header (0.0.8)
     liquid (2.6.2)
     listen (2.10.1)
       celluloid (~> 0.16.0)
@@ -54,9 +58,22 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    rdf (1.1.15)
+      link_header (~> 0.0, >= 0.0.8)
+    rdf-aggregate-repo (1.1.0)
+      rdf (>= 1.1)
+    rdf-rdfa (1.1.6)
+      haml (~> 4.0)
+      htmlentities (~> 4.3)
+      rdf (~> 1.1, >= 1.1.6)
+      rdf-aggregate-repo (~> 1.1)
+      rdf-xsd (~> 1.1)
+    rdf-xsd (1.1.4)
+      rdf (~> 1.1, >= 1.1.9)
     redcarpet (3.3.1)
     safe_yaml (1.0.4)
     sass (3.4.14)
+    tilt (2.0.1)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -68,6 +85,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  rdf-rdfa
 
 BUNDLED WITH
    1.10.4
