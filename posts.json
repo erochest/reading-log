@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "rdfa": "http://www.w3.org/ns/rdfa#"
+  },
+  "@graph": [
+    {
+      "@id": "",
+      "rdfa:usesVocabulary": {
+        "@id": "http://bibframe.org/vocab/"
+      }
+    },
+    {
+      "@id": "http://dbpedia.org/resource/Azar_Nafisi",
+      "@type": "http://bibframe.org/vocab/Person",
+      "http://bibframe.org/vocab/creator": {
+        "@id": "http://www.worldcat.org/oclc/885983017"
+      },
+      "http://bibframe.org/vocab/referenced": [
+        {
+          "@id": "http://dbpedia.org/resource/Vladimir_Nabokov"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/James_Baldwin"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/C._S._Lewis"
+        },
+        {
+          "@id": "http://dbpedia.org/resource/Jane_Austen"
+        }
+      ]
+    },
+    {
+      "@id": "http://dbpedia.org/resource/C._S._Lewis",
+      "@type": "http://bibframe.org/vocab/Person"
+    },
+    {
+      "@id": "http://dbpedia.org/resource/Italo_Calvino",
+      "@type": "http://bibframe.org/vocab/Person",
+      "http://bibframe.org/vocab/creator": [
+        {
+          "@id": "http://www.worldcat.org/oclc/7197128"
+        },
+        {
+          "@id": "http://uva.worldcat.org/oclc/3380425"
+        }
+      ]
+    },
+    {
+      "@id": "http://dbpedia.org/resource/James_Baldwin",
+      "@type": "http://bibframe.org/vocab/Person"
+    },
+    {
+      "@id": "http://dbpedia.org/resource/Jane_Austen",
+      "@type": "http://bibframe.org/vocab/Person"
+    },
+    {
+      "@id": "http://dbpedia.org/resource/Vladimir_Nabokov",
+      "@type": "http://bibframe.org/vocab/Person"
+    },
+    {
+      "@id": "http://uva.worldcat.org/oclc/3380425",
+      "@type": "http://bibframe.org/vocab/Text"
+    },
+    {
+      "@id": "http://www.worldcat.org/oclc/7197128",
+      "@type": "http://bibframe.org/vocab/Text"
+    },
+    {
+      "@id": "http://www.worldcat.org/oclc/885983017",
+      "@type": "http://bibframe.org/vocab/Text"
+    }
+  ]
+}

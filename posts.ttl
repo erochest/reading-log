@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+
+<> rdfa:usesVocabulary <http://bibframe.org/vocab/> .
+
+<http://dbpedia.org/resource/Azar_Nafisi> a <http://bibframe.org/vocab/Person>;
+   <http://bibframe.org/vocab/creator> <http://www.worldcat.org/oclc/885983017>;
+   <http://bibframe.org/vocab/referenced> <http://dbpedia.org/resource/Vladimir_Nabokov>,
+     <http://dbpedia.org/resource/James_Baldwin>,
+     <http://dbpedia.org/resource/C._S._Lewis>,
+     <http://dbpedia.org/resource/Jane_Austen> .
+
+<http://dbpedia.org/resource/Italo_Calvino> a <http://bibframe.org/vocab/Person>;
+   <http://bibframe.org/vocab/creator> <http://www.worldcat.org/oclc/7197128>,
+     <http://uva.worldcat.org/oclc/3380425> .
+
+<http://dbpedia.org/resource/C._S._Lewis> a <http://bibframe.org/vocab/Person> .
+
+<http://dbpedia.org/resource/James_Baldwin> a <http://bibframe.org/vocab/Person> .
+
+<http://dbpedia.org/resource/Jane_Austen> a <http://bibframe.org/vocab/Person> .
+
+<http://dbpedia.org/resource/Vladimir_Nabokov> a <http://bibframe.org/vocab/Person> .
+
+<http://uva.worldcat.org/oclc/3380425> a <http://bibframe.org/vocab/Text> .
+
+<http://www.worldcat.org/oclc/7197128> a <http://bibframe.org/vocab/Text> .
+
+<http://www.worldcat.org/oclc/885983017> a <http://bibframe.org/vocab/Text> .
