@@ -22,8 +22,6 @@ module Jekyll
     end
 
     def render(context)
-      site = context.registers[:site]
-      converter = site.getConverterImpl(Jekyll::Converters::Markdown)
       body = super
 
       span = "<span resource=\"#{@url}\""
