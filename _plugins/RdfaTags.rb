@@ -31,7 +31,33 @@ module Jekyll
       span
     end
   end
+
+  class RdfaResourceLink < Liquid::Block
+    def initialize(tag_name, markup, tokens)
+      params = markup.split ' '
+      @url = params.shift
+      @args = Hash.new
+      params.each do |p|
+        key, value = p.split '='
+        @args[key.to_sym] = value
+      end
+      super
+    end
+
+    def render(context)
+      body = super
+
+      a = "<a href=\"#{@url}\""
+      @args.each_pair do |key, value|
+        a << " #{key.to_s}=\"#{value}\""
+      end
+      a << ">#{body}</a>"
+
+      a
+    end
+  end
 end
 
 Liquid::Template.register_tag('vocab', Jekyll::RdfaVocabBlock)
 Liquid::Template.register_tag('rsc_span', Jekyll::RdfaResourceSpan)
+Liquid::Template.register_tag('rsc_a', Jekyll::RdfaResourceLink)
