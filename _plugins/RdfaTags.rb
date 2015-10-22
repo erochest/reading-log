@@ -58,6 +58,6 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('vocab', Jekyll::RdfaVocabBlock)
-Liquid::Template.register_tag('rsc_span', Jekyll::RdfaResourceSpan)
-Liquid::Template.register_tag('rsc_a', Jekyll::RdfaResourceLink)
+# Liquid::Template.register_tag('vocab', Jekyll::RdfaVocabBlock)
+# Liquid::Template.register_tag('rsc_span', Jekyll::RdfaResourceSpan)
+# Liquid::Template.register_tag('rsc_a', Jekyll::RdfaResourceLink)
