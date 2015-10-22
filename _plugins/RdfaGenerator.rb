@@ -27,6 +27,12 @@ module Jekyll
         if post.data.member? "resource"
           attribs[:resource] = post.data["resource"]
         end
+        if post.data.member? "prefix"
+          prefixes = post.data["prefix"]
+                     .to_a.map { |key, value| "#{key}: #{value}" }
+                     .join " "
+          attribs[:prefix] = prefixes
+        end
 
         unless attribs.empty?
           markup = attribs
@@ -35,6 +41,9 @@ module Jekyll
                    .join ""
           html = "<div#{markup}>#{html}</div>"
         end
+        # puts post.inspect
+        # puts html
+        # puts
         graph.from_rdfa html
       end
 
