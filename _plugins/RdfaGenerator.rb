@@ -21,11 +21,10 @@ module Jekyll
         html = converter.convert(post.content)
 
         attribs = {}
-        if post.data.member? "vocab"
-          attribs[:vocab] = post.data["vocab"]
-        end
+        attribs[:vocab] = post.data["vocab"] if post.data.member? "vocab"
         if post.data.member? "resource"
           attribs[:resource] = post.data["resource"]
+          attribs[:typeof] = post.data["typeof"] if post.data.member? "typeof"
         end
         if post.data.member? "prefix"
           prefixes = post.data["prefix"]
