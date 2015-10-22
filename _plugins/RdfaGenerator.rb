@@ -19,8 +19,21 @@ module Jekyll
       graph = RDF::Graph.new
       site.posts.each do |post|
         html = converter.convert(post.content)
+
+        attribs = {}
         if post.data.member? "vocab"
-          html = "<div vocab='#{post.data["vocab"]}'>#{html}</div>"
+          attribs[:vocab] = post.data["vocab"]
+        end
+        if post.data.member? "resource"
+          attribs[:resource] = post.data["resource"]
+        end
+
+        unless attribs.empty?
+          markup = attribs
+                   .to_a
+                   .map { |key, value| " #{key}='#{value}'"}
+                   .join ""
+          html = "<div#{markup}>#{html}</div>"
         end
         graph.from_rdfa html
       end
