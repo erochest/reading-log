@@ -3,7 +3,7 @@ title: Hello Kitty Must Die
 date: 2016-07-22T20:52:59-0400
 resource: http://www.worldcat.org/oclc/456179132
 typeof: Work
-tags: suspense
+tags: mystery, asian-american, women, humor
 ---
 
 ## <span resource="http://viaf.org/viaf/120524420/rdf.xml" property="creator"><span about="http://viaf.org/viaf/120524420/rdf.xml" typeof="Person" property="rdfs:label">Angela S. Choi</span></span>
@@ -39,8 +39,9 @@ So I mentioned it to a couple of my colleagues, who are reading it, and
 over [DH 2016][dh2016], I re-read it.
 
 It was both more problematic and more awesome than I remembered. It never
-does really settle down, and the main character is more of an anti-hero
-than I recalled.
+does really settle down, and the main character is more of an <span
+property="p:theme_of" resource="etag:anti-hero">anti-hero</span> than
+I recalled.
 
 To be honest, I'm a little embarrassed by how much I like it. The main
 character is a relatable and loveable, but not even vaguely likeable. When
