@@ -1,12 +1,14 @@
 ---
 title: Hello Kitty Must Die
+author:
+  name: Angela S. Choi
+  resource: http://viaf.org/viaf/120524420/
+  typeof: Person
 date: 2016-07-22T20:52:59-0400
 resource: http://www.worldcat.org/oclc/456179132
 typeof: Work
 tags: mystery, asian-american, women, humor
 ---
-
-## <span resource="http://viaf.org/viaf/120524420/rdf.xml" property="creator"><span about="http://viaf.org/viaf/120524420/rdf.xml" typeof="Person" property="rdfs:label">Angela S. Choi</span></span>
 
 I read this book first a while back. Off-hand, I don't remember what made
 me read it. Probably I saw someone recommend it, and it had a lot of
