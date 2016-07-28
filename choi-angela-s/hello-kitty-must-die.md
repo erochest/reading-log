@@ -18,6 +18,8 @@ property="e:genre" resource="etag:humor">funny</span>.
 
 I really liked it. It's a great read.
 
+<!--more-->
+
 It's also written by an Asian American woman, and as the father of two
 Asian American kids and as the father of a daughter, I try to look out for
 books written by women and books written by Asian Americans about their
