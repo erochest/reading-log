@@ -1,5 +1,5 @@
 ---
-date: 2017-01-06T18:59:43Z
+date: 2017-01-06T19:26:53
 resource: http://www.worldcat.org/oclc/2778739
 author:
   name: Thomas Merton
