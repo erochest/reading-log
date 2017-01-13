@@ -3,7 +3,7 @@ tags:
 - young-adult
 - sff
 - bildungsroman
-date: 2017-01-12T14:52:53Z
+date: 2017-01-13T12:01:15
 resource: http://www.worldcat.org/oclc/191931608
 author:
   name: Neil Gaiman
