@@ -5,7 +5,7 @@ tags:
 - dystopian
 - extinction
 - ecology
-date: 2017-01-17T18:18:01Z
+date: 2017-01-18T15:17:48
 resource: http://www.worldcat.org/oclc/899253021
 author:
   name: Margaret E. Atwood
