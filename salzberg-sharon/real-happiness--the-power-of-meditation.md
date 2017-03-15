@@ -3,7 +3,7 @@ categories:
 - meditation
 - contemplation
 - how-to
-date: 2017-03-15T10:11:13Z
+date: 2017-03-15T10:32:14
 resource: http://www.worldcat.org/oclc/778612466
 author:
   name: Sharon Salzberg
