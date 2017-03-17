@@ -19,7 +19,7 @@ This book mentions a number of other books, and it contains
 a bibliography. So it is leading me to read a number of other books, some
 of which, picked at pseudo-random:
 
-* *Reflections on the Way to the Gallows*, by Kanno Sugako.
+* <span resource="http://www.worldcat.org/oclc/764532715" property="p:lead_to">[*Reflections on the Way to the Gallows*](/reading-log/sugako-kanno/reflections-on-the-way-to-the-gallows), by Kanno Sugako.</span>
 * *The Bluestockings of Japan*, by Jan Bardsley.
 * *The Many Worlds of Hugh Everett III*, by Peter Byrne.
 * *Mount Analogue*, by René Daumal.
