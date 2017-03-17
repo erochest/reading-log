@@ -4,7 +4,7 @@ categories:
 - anarchism
 - memoir
 - everything-is-personal
-date: 2017-03-16T18:26:44Z
+date: 2017-03-17T11:02:59
 resource: http://www.worldcat.org/oclc/764532715
 author:
   name: Kanno Sugako
