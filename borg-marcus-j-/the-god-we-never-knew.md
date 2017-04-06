@@ -3,7 +3,7 @@ categories:
 - progressive-christianity
 - panentheism
 - spirituality
-date: 2017-04-06T10:04:02Z
+date: 2017-04-06T10:40:58
 resource: http://www.worldcat.org/oclc/318910903
 author:
   name: Marcus J. Borg
