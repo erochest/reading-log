@@ -2,7 +2,7 @@
 categories:
 - language
 - sff
-date: 2017-04-11T10:20:26
+date: 2017-04-11T10:25:22
 resource: http://www.worldcat.org/oclc/870498057
 author:
   name: China Miéville
@@ -19,11 +19,11 @@ abandoned building with some aliens, and she comes out also being *the
 girl who was hurt in the dark and ate what was given to her*.
 
 She had to become a simile so that she could become part of Language,
-the language of the Ariekei, the indiginous sentient beings of the
+the language of the Ariekei, the indigenous sentient beings of the
 world on which Embassytown was. Language was apparently unique among
 the languages of the universe because in order for an Ariekes to say
-something or even to think it, it needed to coorespond to reality in
-someway.
+something or even to think it, it needed to correspond to reality in
+some way.
 
 This book managed to hold off all my doubts about this premise
 (narratively, linguistically, philosophically) long enough for me to
